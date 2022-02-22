@@ -1,7 +1,7 @@
 <?php
 function output_file($file, $name, $mime_type='')
 {
-if(!is_readable($file)) die('File not found!');
+
 
 $size = filesize($file);
 $name = rawurldecode($name);
